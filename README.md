@@ -21,9 +21,9 @@ Npm i, node seed.js, node index.js in terminal
 
 ## Usage
 *Instructions for use:*
-Add new workout and fill out information or continue a previous started workout. Check stats in dashboard to see chart and pie graph of your daily performance. Click Fitness Tracker to go back to your last workout.
+Add new workout and fill out information or continue a previous started workout. Check stats in dashboard to see chart and bar graph of your daily performance. Click Fitness Tracker to go back to your last workout.
 ## Tech
-Sequelize, Dotenv, Mysql2, Express, Node, Insomnia to test api routes.
+Compression, Dotenv, Express, Mongoose, Morgan, Nodemon, Mongodb, Mongodb Atlas, Heroku for deployment
 
 ## License
 MIT
