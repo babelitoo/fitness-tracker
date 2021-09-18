@@ -1,11 +1,11 @@
 # Fitness Tracker
 
 ## Description
-
-![Screen Shot](./assets/fitness-gif)
+Workout Tracker is a full-stack web app using MongoDB that enables user to keep track of their exercise progress. User can add and then view their workout progress in their dashboard to see their workout status.
+![Demo Gif](./assets/fitness-gif.gif)
 
 ## Table of Contents
-* [Video Walkthrough](#video)
+* [Live Deployment](#live)
 * [Installation](#installation)
 * [Usage](#usage)
 * [Technologies Used](#tech)
@@ -21,7 +21,7 @@ Npm i, node seed.js, node index.js in terminal
 
 ## Usage
 *Instructions for use:*
-Add new workout and fill out information or continue a previous started workout. Check stats in dashboard to see chart and pie graph of your daily performance. Click Fitness Tracker to go back to your last worker.
+Add new workout and fill out information or continue a previous started workout. Check stats in dashboard to see chart and pie graph of your daily performance. Click Fitness Tracker to go back to your last workout.
 ## Tech
 Sequelize, Dotenv, Mysql2, Express, Node, Insomnia to test api routes.
 
