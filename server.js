@@ -5,7 +5,7 @@ const compression = require('compression');
 const db = require("./models");
 
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3002;
 
 const app = express();
 
@@ -23,7 +23,7 @@ app.use(require("./routes/api-routes.js"));
 app.use(require("./routes/html-routes.js"));
 
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", { useNewUrlParser: true });
+mongoose.connect(process.env.DB_CLIENT_URL || "mongodb://localhost/workout", { useNewUrlParser: true });
 
 // Start the server
 app.listen(PORT, () => {
